@@ -1,0 +1,142 @@
+.background_efefef{background-color: #efefef;}
+
+/*注册页面*/
+.zhuce img{display: block;width: 120px;border-radius: 50%;margin: 30px auto;}
+.zhuce .form-horizontal{padding: 0 30px;}
+.zhuce input{border:none;box-shadow: none;}
+.zhuce select{border:none;box-shadow: none;text-align: right;}
+.zhuce input:focus{border:none;box-shadow: none;outline: none;}
+.zhuce select:focus{border:none;box-shadow: none;outline: none;}
+.zhuce label{line-height: 34px;padding: 0;}
+.zhuce .form-group_line{border-bottom: 1px solid #eee;}
+.zhuce .form-group > div{padding: 0;}
+.zhuce button{width: 100%;background-color: #f64b74;color: #fff;line-height: 2;border-radius: 20px;border: none;}
+
+/*登录页面*/
+.login img{display: block;width: 120px;border-radius: 30px;margin: 60px auto;}
+.login input{border:none;box-shadow: none;}
+.login input:focus{border:none;box-shadow: none;outline: none;}
+.login .form-group_line{border-bottom: 1px solid #eee;margin-bottom: 30px;}
+.login .form-group > div{padding: 0;}
+.login button{width: 100%;background-color: #f64b74;color: #fff;line-height: 2;border-radius: 20px;border: none;}
+.login a{color: #000;}
+
+/*地址管理*/
+.address{padding: 15px 0;}
+.address .list{background-color: #fff;padding: 15px;margin-bottom: 15px;position: relative;}
+.address .list p{margin-bottom: 3px;}
+.address .text{padding: 15px 0 20px;}
+.address button{width: 100%;background-color: #f64b74;color: #fff;line-height: 2;border-radius: 20px;border: none;}
+
+/*商品管理*/
+.shop{padding: 15px 0;}
+.shop img{padding: 0;}
+.shop .list{background-color: #fff;padding: 15px;margin-bottom: 5px;position: relative;}
+.shop .text{height: 100%;}
+.shop .list .text p{position: absolute;top: 100px;right: 0;left: 0;padding-left: 15px;}
+.shop .list .text .money{color: #f64b74;}
+.shop .list .text .reduce{border: 1px solid #f64b74;color: #f64b74;border-radius: 50%;width: 20px;height: 20px;display: inline-block;text-align: center;line-height: 16px;font-size: 14px;margin: 0 5px;}
+.shop .list .text .plus{border: 1px solid #f64b74;color: #fff;background-color: #f64b74; border-radius: 50%;width: 20px;height: 20px;display: inline-block;text-align: center;line-height: 16px;font-size: 14px;margin: 0 5px;}
+.shop_money{background-color: #f64b74;position: fixed;bottom: 0;width: 100%;}
+.shop_money p{color: #fff;line-height: 60px;margin: 0;padding-left: 15px;}
+.shop_money button{background-color: #fff;border-radius: 20px;color: #f64b74;margin-top: 16px;margin-right: 15px;padding: 2px 15px;}
+
+/*忘记密码 修改密码*/
+.password {padding: 30px 0;}
+.password label{line-height: 34px;padding: 0;}
+.password input{border:none;box-shadow: none;}
+.password input:focus{border:none;box-shadow: none;outline: none;}
+.password .form-group_line{border-bottom: 1px solid #eee;margin-bottom: 30px;}
+.password .form-group > div{padding: 0;}
+.password button{width: 100%;background-color: #f64b74;color: #fff;line-height: 2;border-radius: 20px;border: none;}
+.password a{color: #000;}
+
+/*团队管理*/
+.itempage_list h4 span{font-size: 0.8em;}
+.itempage_list_two{padding: 0 10px;}
+.itempage_list_three{padding: 0 10px;}
+.itempage_list .btn-primary{border: none;}
+.itempage_list:nth-of-type(odd) .btn-primary{background-color: #db3021;}
+.itempage_list:nth-of-type(even) .btn-primary{background-color: #f64b74;}
+
+/*账单明细*/
+.billpage_list{line-height: 16px;color: #333;border-bottom: 1px solid #ccc;padding-bottom: 5px;margin-bottom: 5px;}
+.billpage_list .time{font-size: 0.8em;color:#999;}
+.billpage_list p{color: #999;}
+.billpage_list .money{font-size: 1.4em;color: #333;}
+
+/*佣金*/
+.moneypage_main{background-color: #f64b74;}
+.moneypage_main ul{list-style: none;padding:50px 15px;color: #fff;}
+.moneypage_main ul li{padding:0;font-size: 16px;}
+.moneypage_main .money{display: block;font-size: 20px;margin: 5px;}
+.moneypage_main li a{color: #fff;}
+.moneypage button{width: 100%;background-color: #f64b74;color: #fff;line-height: 3;border-radius: 40px;border: none;margin-top: 60px;}
+
+/*征集箱*/
+.collectionpage{}
+.collectionpage_main{margin: 15px 0 15px;background-color: #fff;padding: 15px;}
+.collectionpage_main .form-control{border: none;box-shadow: none;padding: 0;}
+.collectionpage button{width: 100%;background-color: #f64b74;color: #fff;line-height: 2;border-radius: 40px;border: none;}
+
+/*我的团队*/
+.myitem_top{background-color: #fff;padding: 5px 0;margin: 5px 0;}
+.myitem_top img {display: block;width: 100px;border-radius: 50%;margin: 30px auto 10px;}
+.myitem_top ul{list-style: none;padding:15px 0 5px;color: #999;}
+.myitem_top ul li{padding:0;font-size: 16px;text-align: center;border-right: 1px solid #ccc;}
+.myitem_top ul li:last-child{border:none;}
+.myitem_top span{display: block;font-size: 20px;margin: 5px;}
+.myitem .item_main{background-color: #fff;padding:5px 15px;margin-bottom: 5px;}
+.myitem .item_main h4{border-bottom: 1px solid #efefef;padding-bottom: 10px;margin-bottom: 0;color: #666;}
+.myitem .item_main ul{list-style: none;padding: 0;line-height: 30px;}
+.myitem .item_main ul li{padding: 4px 0;}
+.myitem .item_main img{width: 30px;border-radius: 50%;}
+.myitem .item_main span{padding: 0;color: #999;}
+.myitem .item_main{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
